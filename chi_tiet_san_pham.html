@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/39f2ad24bf.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/chi_tiet_san_pham_1.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="IMG/favicon.ico">
+    <title>LẮC ĐẦU</title>
+</head>
+<body>
+    <div>
+        <div id="ib">
+            <ul>
+                <li><a href="https://vi-vn.facebook.com/"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+                <li><a href="https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F"><i class="fa-brands fa-shopify"></i> Shopee</a></li>
+                <li><a href="https://www.instagram.com/accounts/login/?"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            </ul>
+            <div id="login">
+                <button onclick="document.getElementById('id01').style.display='block'"><i class="fa-solid fa-user"></i></button>
+                <div id="id01" class="modal">
+                  <form class="modal-content animate" method="post">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    </div>
+                    <div class="container">
+                        <h2>Đăng nhập</h2>
+                      <label for="uname">Tên tài khoảng hoặc địa chỉ email &#42;</label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                
+                      <label for="psw">Mật khẩu &#42;</label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember">Ghi nhớ mật khẩu
+                      </label><br>
+                      <button type="submit" class="cancelbtn">Đăng nhập</button>
+                    <div>Bạn quên mật khẩu của mình?? <a href="forgot_psw.html">Lấy lại mật khẩu</a></div>
+                    <div>Bạn chưa có tài khoản?? <a href="sign_up.html">Đăng kí tài khoản nhanh</a></div>
+                    </div>
+                  </form>
+                </div>
+                <script>
+                // Get the modal
+                var modal = document.getElementById('id01');
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+                </script>
+            </div>
+        </div>
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="IMG/caidaubaymax_1.png"></a>
+            </div>
+            <div class="thanh_tim">
+                <input  type="text" name="tsearch" placeholder="Mời nhập tên sản phẩm của bạn:">
+                <!-- <input  type="submit" value="Đồng ý"> -->
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div id="sdt">
+                <b>0855.708.546</b>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Giỏ hàng / 0Đ <i class="fa-solid fa-cart-shopping"></i></button>
+                <div class="dropdown-content">   
+                    <div id="giohang">
+                        <div id="sp">
+                            <img src="./IMG/gaming_gear_1.jpg">
+                            <span>Giá treo đỡ tai nghe led RGB</span>
+                            <p>1x90.000 <u>đ</u></p>
+                        </div>
+                        <div id="sp">
+                            <img src="./IMG/mo_hinh_3.jpg">
+                            <span>Tượng Hulk-Buster Mark-44</span>
+                            <p>1x90.000 <u>đ</u></p>
+                        </div>
+                        <div id="sp">
+                            <img src="./IMG/do_cong_nghe_3.jpg">
+                            <span>Đèn ngủ cầu mây nhiều màu</span>
+                            <p>1x90.000 <u>đ</u></p>
+                        </div>
+                        <div id="sp">
+                            <img src="./IMG/lot_chuot_7.jpg">
+                            <span>Pad chuột trái chuối nền đen</span>
+                            <p>1x90.000 <u>đ</u></p>
+                        </div>
+                        <div id="sp">
+                            <img src="./IMG/ban_ghe_1.jpg">
+                            <span>Bàn gaming Ikea tủ gỗ, nhiều màu</span>
+                            <p>1x90.000 <u>đ</u></p>
+                        </div>
+                </div>
+                <div id="truy_cap">
+                    <p><a href="all_cart.html">Xem Giỏ Hàng</a></p>
+                </div>
+                <div id="thanh_toan">
+                    <p><a href="thanh_toan.html">Thanh toán</a></p>
+                </div>
+            </div>
+        </div>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                <div id="icon_menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                    <a href="">DANH MỤC SẢN PHẨM</a>
+                </li>
+                <li><a href="news.html">TIN TỨC</a></li>
+                <li><a href="hdmh.html">HƯỚNG DẪN MUA HÀNG</a></li>
+                <li><a href="cs_vanchuyen.html">CHÍNH SÁCH VẬN CHUYỂN</a></li>
+                <li><a href="cs_baohanh.html">CHÍNH SÁCH BẢO HÀNH</a></li>
+                <li><a href="contact_form.html">LIÊN HỆ</a></li>
+            </ul>
+        </nav>
+            <div id="body">
+                <article>
+                    <section>
+                        <aside id="top_left">
+                            <div class="container_5">
+                                <div class="mySlides_5">
+                                    <div class="numbertext_5">1 / 4</div>
+                                    <img src="IMG/1.jpg" style="width:370px; height: 400px;">
+                                </div>
+                
+                                <div class="mySlides_5">
+                                    <div class="numbertext_5">2 / 4</div>
+                                    <img src="IMG/2.jpg" style="width:370px; height: 400px;">
+                                </div>
+                
+                                <div class="mySlides_5">
+                                    <div class="numbertext_5">3 / 4</div>
+                                    <img src="IMG/3.jpg" style="width:370px; height: 400px;">
+                                </div>
+                                    
+                                <div class="mySlides_5">
+                                    <div class="numbertext_5">4 / 4</div>
+                                    <img src="IMG/4.jpg" style="width:370px; height: 400px;">
+                                </div>
+                                    
+                                <a class="prev_5" onclick="plusSlides(-1)">❮</a>
+                                <a class="next_5" onclick="plusSlides(1)">❯</a>
+                
+                                <div class="row_5">
+                                    <div class="column_5">
+                                    <img class="demo cursor_5" src="IMG/1.jpg" style="width:80px; height: 85px;" onclick="currentSlide(1)" alt="The Woods">
+                                    </div>
+                                    <div class="column_5">
+                                    <img class="demo cursor_5" src="IMG/2.jpg" style="width:80px; height: 85px;" onclick="currentSlide(2)" alt="Cinque Terre">
+                                    </div>
+                                    <div class="column_5">
+                                    <img class="demo cursor_5" src="IMG/3.jpg" style="width:80px; height: 85px;" onclick="currentSlide(3)" alt="Mountains and fjords">
+                                    </div>
+                                    <div class="column_5">
+                                    <img class="demo cursor_5" src="IMG/4.jpg" style="width:80px; height: 85px;" onclick="currentSlide(4)" alt="Northern Lights">
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                let slideIndex = 1;
+                                showSlides(slideIndex);
+                                
+                                function plusSlides(n) {
+                                  showSlides(slideIndex += n);
+                                }
+                                
+                                function currentSlide(n) {
+                                  showSlides(slideIndex = n);
+                                }
+                                
+                                function showSlides(n) {
+                                  let i;
+                                  let slides = document.getElementsByClassName("mySlides_5");
+                                  let dots = document.getElementsByClassName("demo_5");
+                                  if (n > slides.length) {slideIndex = 1}
+                                  if (n < 1) {slideIndex = slides.length}
+                                  for (i = 0; i < slides.length; i++) {
+                                    slides[i].style.display = "none";
+                                  }
+                                  for (i = 0; i < dots.length; i++) {
+                                    dots[i].className = dots[i].className.replace(" active", "");
+                                  }
+                                  slides[slideIndex-1].style.display = "block";
+                                  dots[slideIndex-1].className += " active";
+                                  captionText.innerHTML = dots[slideIndex-1].alt;
+                                }
+                                </script>
+                        </aside>
+                        <aside id="top_mid">
+                            <div id="abc">
+                                <div id="ten_sp">
+                                    <p>PAD 44 BOMB DOGE</p>
+                                </div>
+                                <div id="gia">
+                                    <p>90,000<u>đ</u></p>
+                                </div>
+                                <div id="chi_tiet">
+                                    <p>PAD CHUỘT CỠ LỚN GIÚP DI CHUỘT HIỆU QUẢ</p>
+                                    <p>CHỐNG TRƠN TRƯỢT</p>
+                                    <p>LÀM ĐẸP CHO MẶT BÀN</p>
+                                    <p>Lót Chuột Kích Thước : 450x400x3mm</p>
+                                    <p>Chất Liệu : Mặt Di Vải – Đế Cao Su</p>
+                                    <p>Mặt di : Trơn – Speed</p>
+                                </div>
+                                <div id="ho_tro">
+                                    <p id="head_ho_tro"><span style="color: red;">HOTLINE TƯ VẤN SẢN PHẨM</span> <strong style="color: red;">0349.296.461</strong>  ( 9:00 - 21:00 )</p>
+                                    <p id="chinh_sach"> CHÍNH SÁCH BÁN HÀNG :</p>
+                                    <div id="doi_tra">
+                                        <p>ĐỔI TRẢ MIỄN PHÍ KHI SẢN PHẨM CÓ LỖI DO NHÀ SẢN XUẤT</p>
+                                        <p>KHÁCH HÀNG ĐƯỢC KIỂM TRA HÀNG HÓA TRƯỚC KHI THANH TOÁN</p>
+                                        <p>NHIỀU ƯU ĐÃI VẬN CHUYỂN KHI ĐẶT HÀNG QUA CÁC SÀN</p>
+                                        <p>THƯƠNG MẠI ĐIỆN TỬ CỦA LẮC ĐẦU</p>
+                                    </div>
+                                </div>
+                                <div id="button_buy_1">
+                                    <button id="button_1">
+                                        <span id="icon_fb">f</span>
+                                        <span id="text_fb">Facebook</span>
+                                    </button>
+                                    <button id="button_2">
+                                        <span>
+                                            <img src="IMG/ta_dao.png">
+                                        </span>
+                                    </button>
+                                </div>
+                                <div id="button_buy_2">
+                                    <button id="button_3">
+                                        <p><a href="thanh_toan.html">MUA NGAY ĐI BÉ ƠI</a></p>
+                                    </button>
+                                </div>
+                            </div>
+                        </aside>
+                        <aside id="top_right">
+                                <div id="title1">
+                                    <span>SẢN PHẨM</span>
+                                </div>
+                                <div id="listtt">
+                                    <ul>
+                                        <li>
+                                            <img src="IMG/tintuc_right_1.jpg">
+                                        <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                            <span>2,490,000<u>đ</u></span>
+                                        </li>
+                                        <li>
+                                            <img src="IMG/tintuc_right_2.jpg">
+                                            <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                            <span>2,490,000<u>đ</u></span>
+                                        </li>
+                                        <li>
+                                            <img src="IMG/tintuc_right_3.jpg">
+                                            <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                            <span>2,490,000<u>đ</u></span>
+                                        </li>
+                                        <li>
+                                            <img src="IMG/tintuc_right_4.jpg">
+                                            <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                            <span>2,490,000<u>đ</u></span>
+                                        </li>
+                                        <li>
+                                            <img src="IMG/tintuc_right_5.jpg">
+                                            <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                            <span>2,490,000<u>đ</u></span>
+                                        </li>
+                                    </ul>
+                                </di>
+                        </aside>
+                        <aside id="cmt">
+                            <div id="form_phanhoi">
+                                <p>Trả lời</p>
+                                <span>Email của bạn sẽ không được hiển thị công khai. Các trường bắt buộc được đánh dấu*</span>
+                                <form>
+                                    <label for="text_area">Bình luận</label>
+                                    <textarea cols="97" rows="10"></textarea>
+                                    <label for="name" id="name"">Tên&#42;</label><br>
+                                    <input type="text" name="name" id="i_name"><br>
+                                    <label for="email" id="email">Email&#42;</label><br>
+                                    <input type="text" name="email" id="i_email"><br>
+                                    <input type="checkbox" name="remember" id="checked">Ghi nhớ thông tin cá nhân trong lần bình luận tiếp theo của tôi.<br>
+                                    <input type="submit" name="submit" value="Phản hồi" id="submit">
+                                </form>
+                            </div>
+                        </aside>
+                    </section>
+                </article>
+            </div>
+            <div>
+                <button onclick="myFunction()" id="btt" title="Back to Top"><i class="fa-solid fa-angle-up"></i></button>
+                <script>
+                    var backtop=document.getElementById("btt");
+                    window.onscroll= function(){scrollFunction()};
+                    function scrollFunction()
+                    {
+                        if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500)
+                            backtop.style.display="block";
+                        else
+                            backtop.style.display="none";
+                    }
+                    function myFunction()
+                    {
+                        document.body.scrollTop=0;
+                        document.documentElement.scrollTop=0;
+                    }
+                </script>
+            </div>
+            <footer>
+                    <div id="body_footer">
+                        <div id="in4_footer">
+                            <div id="address">
+                                <p>
+                                    Địa chỉ:  Số 87 đường Dịch Vọng Hậu, phường Dịch Vọng Hậu, quận Cầu Giấy, thành phố Hà Nội
+                                </p>
+                                <p>
+                                    Số điện thoại: 0855708546 Địa chỉ email: taichuotchuoi@gmail.com
+                                </p>
+                            </div>
+                            <div id="footer_icon">
+                                <img src="IMG/icon_facebook_footer.png">
+                                <img src="IMG/icon_tiktok_footer.png">
+                                <img src="IMG/icon_youtube_footer.png">
+                                <img src="IMG/icon_ins_footer.png">
+                                <img src="IMG/icon_mail_footer.png">
+                            </div>
+                        </div>
+                        <div id="map_page">
+                            <div id="map">
+                                <p>BẢN ĐỒ</p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1384.2007787180937!2d106.70147234741187!3d11.10510237564906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174cf1120d035ab%3A0x7b091664c2f724f0!2zQ8OgZmVUw6BpIEzhu5lj!5e0!3m2!1svi!2s!4v1648608589744!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div id="page">
+                                <P>FACEBOOK</P>
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flacdaustore&tabs=timeline&width=550&height=262&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            </div>
+                        </div>
+                    </div>
+            </footer>
+            <div id="fast_ib">
+                <div id="zalo_chat">Chat Zalo</div>
+                <div id="facebook_chat">Chat facebook</div>
+                <div id="hotline">hotline:<b>0349296461</b></div>
+            </div>
+</body>
+</html>

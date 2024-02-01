@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/39f2ad24bf.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pad_chuot.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="../IMG/favicon.ico">
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico">  Favicon : hiển thị logo trang web-->
+    <title>LẮC ĐẦU</title>
+</head>
+<body>
+    <div>
+        <div id="ib">
+            <ul>
+                <li><a href="https://vi-vn.facebook.com/"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+                <li><a href="https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F"><i class="fa-brands fa-shopify"></i> Shopee</a></li>
+                <li><a href="https://www.instagram.com/accounts/login/?"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            </ul>
+            <div id="login">
+                <button onclick="document.getElementById('id01').style.display='block'"><i class="fa-solid fa-user"></i></button>
+                <div id="id01" class="modal">
+                  <form class="modal-content animate" method="post">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    </div>
+                    <div class="container">
+                        <h2>Đăng nhập</h2>
+                      <label for="uname">Tên tài khoảng hoặc địa chỉ email &#42;</label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                
+                      <label for="psw">Mật khẩu &#42;</label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember">Ghi nhớ mật khẩu
+                      </label><br>
+                      <button type="submit" class="cancelbtn">Đăng nhập</button>
+                      <div><a href="../forgot_psw.html">Quên mật khẩu ?</a></div>
+                    </div>
+                  </form>
+                </div>
+                <script>
+                // Get the modal
+                var modal = document.getElementById('id01');
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+                </script>
+            </div>
+        </div>
+        <header>
+            <div id="logo">
+                <a href="../index.html"><img src="../IMG/caidaubaymax_1.png"></a>
+            </div>
+            <div class="thanh_tim">
+                <input  type="text" name="tsearch" placeholder="Mời nhập tên sản phẩm của bạn:">
+                <!-- <input  type="submit" value="Đồng ý"> -->
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div id="sdt">
+                <b>0855.708.546</b>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Giỏ hàng / 0Đ <i class="fa-solid fa-cart-shopping"></i></button>
+                <div class="dropdown-content">
+        </header>
+        <div class="hover_a">
+            <button class="button_a"><i class="fa-solid fa-bars"></i>DANH MỤC SẢN PHẨM</button>
+            <div class="content_a">
+             <div class="menu-vertical-left">       
+                 <ul>
+                     <li>
+                         <a href="ban_phim.html"><img src="../IMG/icon_gaming_gear.jpg"> GAMING GEAR</a>
+                         <ul>
+                             <li>
+                                 <a href="">BÀN PHÍM</a>
+                                 <ul>
+                                     <li><a href="">BÀN PHÍM CƠ</a></li>
+                                     <li><a href="">BÀN PHÍM GIẢ CƠ</a></li>
+                                     <li><a href="">BÀN PHÍM KHÔNG DÂY</a></li>
+                                     <li><a href="">BỘ KIT PHÍM CƠ</a></li>
+                                     <li><a href="">BÀN PHÍM E-DRA</a></li>
+                                     <li><a href="">BÀN PHÍM DAREU</a></li>
+                                     <li><a href="">BÀN PHÍM AKKO</a></li>
+                                     <li><a href="">BÀN PHÍM NEWMEN</a></li>
+                                     <li><a href="">BÀN PHÍM FL ESPORT</a></li>
+                                     <li><a href="">BÀN PHÍM FUHLEN</a></li>
+                                     <li><a href="">BÀN PHÍM G-NET</a></li>
+                                     <li><a href="">BÀN PHÍM HÃNG KHÁC</a></li>
+                                 </ul>
+                             </li>
+                             <li>
+                                 <a href="">CHUỘT GAMING</a>
+                                 <ul>
+                                     <li><a href="">CHUỘT CẮM DÂY</a></li>
+                                     <li><a href="">CHUỘT KHÔNG DÂY</a></li>
+                                     <li><a href="">CHUỘT E-DRA</a></li>
+                                     <li><a href="">CHUỘT DAREU</a></li>
+                                     <li><a href="">CHUỘT AKKO</a></li>
+                                     <li><a href="">CHUỘT NEWMEN</a></li>
+                                     <li><a href="">CHUỘT FUHLEN</a></li>
+                                     <li><a href="">CHUỘT RAZER</a></li>
+                                     <li><a href="">CHUỘT LOGITECH</a></li>
+                                     <li><a href="">CHUỘT LIGHTNING</a></li>
+                                     <li><a href="">CHUỘT HÃNG KHÁC</a></li>
+                                 </ul>
+                             </li>
+                             <li>
+                                 <a href="">TAI NGHE</a>
+                                 <ul>
+                                     <li><a href="">TAI NGHE CẮM DÂY</a></li>
+                                     <li><a href="">TAI NGHE KHÔNG DÂY</a></li>
+                                     <li><a href="">TAI NGHE E-DRA</a></li>
+                                     <li><a href="">TAI NGHE DAREU</a></li>
+                                     <li><a href="">TAI NGHE ZIDLI</a></li>
+                                     <li><a href="">TAI NGHE G-NET</a></li>
+                                     <li><a href="">TAI NGHE HYPERX</a></li>
+                                     <li><a href="">TAI NGHE WANGMING</a></li>
+                                     <li><a href="">TAI NGHE LIGHTNING</a></li>
+                                     <li><a href="">TAI NGHE RAZER</a></li>
+                                     <li><a href="">TAI NGHE HÃNG KHÁC</a></li>
+                                 </ul>
+                             </li>
+                             <li>
+                                 <a href="">LOA</a>
+                                 <ul>
+                                     <li><a href="">LOA MÁY TÍNH</a></li>
+                                     <li><a href="">LOA BLUETOOTH</a></li>
+                                 </ul>
+                             </li>
+                             <li><a href="">TAY CẦM CHƠI GAME</a></li>
+                             <li><a href="">MICROPHONE THU ÂM</a></li>
+                             <li><a href="">WEBCAM MÁY TÍNH</a></li>
+                             <li><a href="">SWITCH PHÍM CƠ</a></li>
+                             <li><a href="">DÂY CÁP CUSTOME</a></li>
+                         </ul>
+                     </li>
+                     <li>
+                         <a href="key_cap.html"><img src="../IMG/icon_tay_cam_choi_game.jpg"> PHỤ KIỆN MÁY TÍNH</a>
+                         <ul>
+                             <li><a href="">KEYCAP PHÍM CƠ BỘ</a></li>
+                             <li><a href="">KEYCAP PHÍM CƠ LẺ</a></li>
+                             <li><a href="">KÊ TAY BÀN PHÍM</a></li>
+                             <li><a href="">BUNGEE, KÊ DÂY CHUỘT</a></li>
+                             <li><a href="">GIÁ TREO TAI NGHE</a></li>
+                             <li><a href="">GIÁ ĐỠ VGA</a></li>
+                             <li><a href="">GIÁ TREO MÀN HÌNH</a></li>
+                             <li><a href="">USB HUB-USB</a></li>
+                             <li><a href="">VỆ SINH LÀM GỌN</a></li>
+                             <li><a href="">CÁP TÍNH HIỆU</a></li>
+                         </ul>
+                     </li>
+                     <li>
+                         <a href="pad_chuot.html"><img src="../IMG/icon_lot_chuot.jpg" alt=""> LÓT CHUỘT</a>
+                         <ul>
+                             <li>
+                                 <a href="">CỠ 80 &#879; 30 CM</a>
+                                 <ul>
+                                     <li><a href="">LÓT CHUỘT DEMON SLAYER 80X30</a></li>
+                                     <li><a href="">LÓT CHUỘT ONE PIECE 80X30</a></li>
+                                     <li><a href="">LÓT CHUỘT DRAGON BALL 80X30</a></li>
+                                     <li><a href="">LÓT CHUỘT NARUTO 80X30</a></li>
+                                     <li><a href="">LÓT CHUỘT ANIME TỔNG HỢP 80X30</a></li>
+                                     <li><a href="">LÓT CHUỘT SIÊU ANH HÙNG 80X30</a></li>
+                                     <li><a href="">LÓT CHUỘT DỄ THƯƠNG 80X30</a></li>
+                                     <li><a href="">LÓT CHUỘT HỌA TIẾT 80X30</a></li>
+                                     <li><a href="">LÓT CHUỘT HÃNG GAME 80X30</a></li>
+                                     <li><a href="">LÓT CHUỘT LOL 80X30</a></li>
+                                     <li><a href="">LÓT CHUỘT VALORANT 80X30</a></li>
+                                 </ul>
+                             </li>
+                             <li>
+                                 <a href="">CỠ 90 &#879; 40 CM</a>
+                                 <ul>
+                                     <li><a href="">LÓT CHUỘT 90X40 DÀY 5MM</a></li>
+                                     <li><a href="">LÓT CHUỘT DEMON SLAYER 90X40</a></li>
+                                     <li><a href="">LÓT CHUỘT ONE PIECE 90X40</a></li>
+                                     <li><a href="">LÓT CHUỘT DRAGON BALL 90X40</a></li>
+                                     <li><a href="">LÓT CHUỘT NARUTO 90X40</a></li>
+                                     <li><a href="">LÓT CHUỘT ANIME TỔNG HỢP 90X40</a></li>
+                                     <li><a href="">LÓT CHUỘT SIÊU ANH HÙNG 90X40</a></li>
+                                     <li><a href="">LÓT CHUỘT DỄ THƯƠNG 90X40</a></li>
+                                     <li><a href="">LÓT CHUỘT HỌA TIẾT 90X40</a></li>
+                                     <li><a href="">LÓT CHUỘT HÃNG GAME 90X40</a></li>
+                                     <li><a href="">LÓT CHUỘT LOL 90X40</a></li>
+                                     <li><a href="">LÓT CHUỘT VALORANT 90X40</a></li>
+                                 </ul>
+                             </li>
+                             <li><a href="">CỠ 45 &#879; 40 CM</a></li>
+                             <li><a href="">CỠ 35 &#879; 30 CM</a></li>
+                             <li><a href="">CỠ 26 &#879; 21</a></li>
+                             <li><a href="">LÓT CHUỘT LED</a></li>
+                             <li><a href="">LÓT CHUỘT 3D SILICON</a></li>
+                             <li><a href="">LÓT CHUỘT DA</a></li>
+                             <li><a href="">IN THEO YÊU CẦU</a></li>
+                         </ul>
+                     </li>
+                     <li>
+                         <a href="mo_hinh.html"><img src="../IMG/icon_mo_hinh.jpg" alt=""> MÔ HÌNH</a>
+                         <ul>
+                             <li>
+                                 <a href="">MÔ HÌNH ANIME</a>
+                                 <ul>
+                                     <li><a href="">MÔ HÌNH ONE PIECE</a></li>
+                                     <li><a href="">MÔ HÌNH DRAGON BALL</a></li>
+                                     <li><a href="">MÔ HÌNH NARUTO</a></li>
+                                     <li><a href="">MÔ HÌNH ANIME KHÁC</a></li>
+                                 </ul>
+                             </li>
+                             <li><a href="">MÔ HÌNH XE HƠI</a></li>
+                             <li><a href="">MÔ HÌNH SÉC SI</a></li>
+                             <li><a href="">MÔ HÌNH SIÊU ANH HÙNG</a></li>
+                             <li><a href="">MÔ HÌNH LẮC ĐẦU</a></li>
+                         </ul>
+                     </li>
+                     <li>
+                         <a href="do_cong_nghe.html"><img src="../IMG/icon_do_trang.jpg" alt=""> ĐỒ TRANG TRÍ</a>
+                         <ul>
+                             <li>
+                                 <a href="">TRANG TRÍ BÀN</a>
+                                 <UL>
+                                     <li><a href="">ĐỒ DECOR</a></li>
+                                     <li><a href="">ĐỒNG HỒ</a></li>
+                                     <li><a href="">ĐÈN BÀN, ĐÈN NGỦ</a></li>
+                                     <li><a href="">ĐỒ CHƠI CÔNG NGHỆ</a></li>
+                                     <li><a href="">POSTER</a></li>
+                                     <li><a href="">HÌNH DÁN STICKER</a></li>
+                                 </UL>
+                             </li>
+                             <li>
+                                 <a href="">PHỤ KIỆN</a>
+                                 <ul>
+                                     <li><a href="">MÓC KHÓA</a></li>
+                                     <li><a href="">ỐP AIRPODS</a></li>
+                                 </ul>
+                             </li>
+                         </ul>
+                     </li>
+                     <li>
+                         <a href="ban_ghe.html"><img src="../IMG/icon_ban_ghe_gaming.jpg" alt=""> BÀN GHẾ GAMING</a>
+                         <ul>
+                             <li><a href="">BÀN GAMING</a></li>
+                             <li>
+                                 <a href="">GHẾ GAMING</a>
+                                 <ul>
+                                     <li><a href="">GHẾ CÔNG THÁI HỌC</a></li>
+                                     <li><a href="">GHẾ E-DRA</a></li>
+                                     <li><a href="">GHẾ WARRIOR</a></li>
+                                     <li><a href="">GHẾ VIKING</a></li>
+                                     <li><a href="">GHẾ ZERO EXTREME</a></li>
+                                     <li><a href="">GHẾ SIHOO</a></li>
+                                     <li><a href="">GHẾ HÃNG KHÁC</a></li>
+                                 </ul>
+                             </li>
+                         </ul>
+                     </li>
+                     <li>
+                         <a href="tan_nhiet.html"><img src="../IMG/icon_tan_nhiet.jpg" alt=""> TẢN NHIỆT MÁY TÍNH</a>
+                         <ul>
+                             <li><a href="">QUẠT CASE, FAN CASE</a></li>
+                             <li><a href="">TẢN NHIỆT CPU</a></li>
+                             <li><a href="">TẢN NHIỆT LAPTOP</a></li>
+                             <li><a href="">TẢN NHIỆT RAM</a></li>
+                             <li><a href="">DÂY LED</a></li>
+                             <li><a href="">DÂY NGUỒN BỌC LƯỚI</a></li>
+                         </ul>
+                     </li>
+                     <li>
+                         <a href="phu_kien.html"><img src="../IMG/icon_phu_kien_dien_thoai.png" alt=""> PHỤ KIỆN ĐIỆN THOẠI</a>
+                         <ul>
+                             <li><a href="">DÂY CÁP</a></li>
+                             <li><a href="">CỦ SẠC</a></li>
+                             <li><a href="">SẠC DỰ PHÒNG</a></li>
+                         </ul>
+                     </li>
+                 </ul>
+             </div>
+            </div>
+         </div>
+            <nav>
+                <ul>
+                    <li><a href="../contact_form.html">LIÊN HỆ</a></li>
+                    <li><a href="../cs_vanchuyen.html">CHÍNH SÁCH VẬN CHUYỂN</a></li>
+                    <li><a href="../cs_baohanh.html">CHÍNH SÁCH BẢO HÀNH</a></li>
+                    <li><a href="">HƯỚNG DẪN MUA HÀNG</a></li>
+                   <li><a href="../news.html">TIN TỨC</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="body">
+            <div id="title">
+                <p>Bàn phím gaming dành cho gamer vippro</p>
+            </div>
+            <article>
+                <section>
+                        <div id="buy_product">
+                            <img src="../IMG/AKKO_3068b.jpg">
+                            <a href="" id="ten_san_pham">AKKO 3068B MUTI-MODE</a>
+                            <p id="gia_san_pham">1,890,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam1.jpg">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ FVQ301 LED RAINBOW ĐEN</a>
+                            <p id="gia_san_pham">890,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam2.jpg">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ HIJK919 87 NÚT XANH RAINBOW</a>
+                            <p id="gia_san_pham">430,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam3.jpg">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ HIJK919 87 NÚT TRẮNG RAINBOW</a>
+                            <p id="gia_san_pham">430,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam4.jpg">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ HIJK919 87 NÚT HỒNG RAINBOW</a>
+                            <p id="gia_san_pham">430,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam5.jpg">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ TOMATO S220 RAINBOW</a>
+                            <p id="gia_san_pham">450,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam6.png">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ KANANIC DKD104 HỒNG</a>
+                            <p id="gia_san_pham">460,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam7.jpg">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ ZERO METOO Z56 RAINBOW</a>
+                            <p id="gia_san_pham">490,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam8.jpg">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ BOSHAN K20 RAINBOW XANH TRẮNG</a>
+                            <p id="gia_san_pham">590,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam9.jpg">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ BOSHAN K20 RAINBOW ĐEN</a>
+                            <p id="gia_san_pham">490,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam10.jpg">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ BOSHAN RAINBOW FULL SIZE HỒNG</a>
+                            <p id="gia_san_pham">490,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <div id="buy_product">
+                            <img src="../IMG/xem_gam11.jpg">
+                            <a href="" id="ten_san_pham">BÀN PHÍM CƠ E-DRA EK313 ĐEN RAINBOW</a>
+                            <p id="gia_san_pham">520,000<u>đ</u></p>
+                            <div id="button_buy">
+                                <p>Thêm vào giỏ hàng</p>
+                            </div>
+                        </div>
+                        <!-- <aside> -->
+                            <div id="trans_page_back">
+                                <a href="mo_hinh.html" id="back_page">&laquo; Previous</a>
+                            </div>
+                            <div id="trans_page_next">
+                                <a href="pad_chuot.html" id="next_page">Next &raquo;</a>
+                            </div>
+                        <!-- </aside> -->
+                </section>
+                <aside id="top_right">
+                    <div id="title1">
+                        <span>SẢN PHẨM</span>
+                    </div>
+                        <div id="listtt">
+                            <ul>
+                                <li>
+                                    <img src="../IMG/tintuc_right_1.jpg">
+                                    <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                    <span>2,490,000<u>đ</u></span>
+                                </li>
+                                <li>
+                                    <img src="../IMG/tintuc_right_2.jpg">
+                                    <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                    <span>2,490,000<u>đ</u></span>
+                                </li>
+                                <li>
+                                    <img src="../IMG/tintuc_right_3.jpg">
+                                    <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                    <span>2,490,000<u>đ</u></span>
+                                </li>
+                                <li>
+                                    <img src="../IMG/tintuc_right_4.jpg">
+                                    <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                    <span>2,490,000<u>đ</u></span>
+                                </li>
+                                <li>
+                                    <img src="../IMG/tintuc_right_5.jpg">
+                                    <p><a href="#">BÀN PHÍM CƠ AKKO 3108<br>GOKU(CHERRY SW)</a></p>
+                                    <span>2,490,000<u>đ</u></span>
+                                </li>
+                                    
+                            </ul>
+                        </div>
+                </aside>
+            </article>
+        </div>
+        <div>
+            <button onclick="myFunction()" id="btt" title="Back to Top"><i class="fa-solid fa-angle-up"></i></button>
+            <script>
+                var backtop=document.getElementById("btt");
+                window.onscroll= function(){scrollFunction()};
+                function scrollFunction()
+                {
+                    if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500)
+                        backtop.style.display="block";
+                    else
+                        backtop.style.display="none";
+                }
+                function myFunction()
+                {
+                    document.body.scrollTop=0;
+                    document.documentElement.scrollTop=0;
+                }
+            </script>
+        </div>
+        <footer>
+            <div id="body_footer">
+                <div id="in4_footer">
+                    <div id="address">
+                        <p>
+                            Địa chỉ:  Số 87 đường Dịch Vọng Hậu, phường Dịch Vọng Hậu, quận Cầu Giấy, thành phố Hà Nội
+                        </p>
+                        <p>
+                            Số điện thoại: 0855708546 Địa chỉ email: taichuotchuoi@gmail.com
+                        </p>
+                    </div>
+                    <div id="footer_icon">
+                        <img src="../IMG/icon_facebook_footer.png">
+                        <img src="../IMG/icon_tiktok_footer.png">
+                        <img src="../IMG/icon_youtube_footer.png">
+                        <img src="../IMG/icon_ins_footer.png">
+                        <img src="../IMG/icon_mail_footer.png">
+                    </div>
+                </div>
+                <div id="map_page">
+                    <div id="map">
+                        <p>BẢN ĐỒ</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1384.2007787180937!2d106.70147234741187!3d11.10510237564906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174cf1120d035ab%3A0x7b091664c2f724f0!2zQ8OgZmVUw6BpIEzhu5lj!5e0!3m2!1svi!2s!4v1648608589744!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div id="page">
+                        <P>FACEBOOK</P>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flacdaustore&tabs=timeline&width=550&height=262&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div id="fast_ib">
+        <div id="zalo_chat">Chat Zalo</div>
+        <div id="facebook_chat">Chat facebook</div>
+        <div id="hotline">hotline:<b>0349296461</b></div>
+    </div>
+    </div>
+</body>
+</html>

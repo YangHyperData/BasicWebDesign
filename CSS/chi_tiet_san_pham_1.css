@@ -1,0 +1,856 @@
+*{
+  margin: 0px auto;
+  padding: 0px;
+}
+
+body{
+  width: auto;
+  font-family: "Cabin", sans-serif;
+}
+header{
+  width: auto;
+  height: 90px;
+  margin: 0px 150px 0px 150px;
+}
+
+div#ib{
+  width: auto;
+  height: 10px;
+  margin:0px;
+  padding-bottom: 40px;
+  background-color: #29a07e;
+}
+div#ib ul{
+  float: left;
+  list-style: none;
+  margin-left: 150px;  
+}
+div#ib ul li{
+  float: left;
+  padding:14px 20px;
+}
+div#ib ul li a{
+  font-size: 10px; 
+  color: white;
+  text-decoration: none;
+}
+div#ib div#login {
+  float: right;
+  font-size: 15px;
+  margin: 4px 150px 4px 0;
+  padding: 11px 14px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: #29A07E;
+}
+div#ib div#login i{
+  color: white;
+  background-color: #29A07E;
+}
+div#ib div#login:hover{
+  background-color:#d24141;
+}
+div#login div{
+  color: black;
+}
+div#login div a{
+  text-decoration: none;
+  color: blue;
+}
+div#login div a:hover{
+  color: red;
+}
+div #logo{
+  width: 110px;
+  height: 90px;
+  float: left;
+}
+#logo img{
+  width: 110px;
+  height: 90px;
+}
+.thanh_tim{
+  width: 500px;
+  height: 40px;
+  float: left;
+  padding: 25px 0px 30px 30px;
+}
+.thanh_tim input[type=text]{
+  width: 400px;
+  height: 35px;
+}
+.thanh_tim button{
+  height: 35px;
+  width: 50px;
+  margin-left: -4px;
+  color: white;
+  background-color: black;
+}
+                                      /* ======================== cần được sửa icon shopee */
+#icon_shop{     
+  height: 15px;
+  width: 15px;
+}
+#sdt{
+  width: 190px;
+  float: left;
+  padding: 35px 0px 30px 30px;
+}
+#sdt b{
+  font-size: 30px;
+  color: #29A07E;
+}
+/* Gio hang start */
+.dropbtn {
+  background-color:#29a07e;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  margin: 35px 0 0 92px;
+  border-radius: 10px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin: 5px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #d24141;}
+
+div#giohang{
+  width: 280px;
+  height:200px;
+  overflow: scroll;
+  padding: 20px 10px;
+}
+div#sp{
+ width: 300px;
+ float: left;
+ margin: 15px 0;
+}
+div#sp img{
+  width: 60px;
+  float: left;
+}
+div#sp span{
+  float: left;
+  font-size: 15px;
+  margin: 5px 0px 0px 10px;
+}
+div#sp p{
+  float: left;
+  font-size: 13px;
+  color: #b2b2b2;
+  margin: 20px 0 0 10px;
+}
+div#truy_cap{
+  width: 300px; 
+  float: left;
+  margin: 10px 0;
+}
+div#truy_cap p{
+  width: 250px;
+  text-align: center;
+  background-color: #d24141;
+}
+div#thanh_toan{
+  width: 300px; 
+  float: left;
+  margin: 5px 0 10px 0;
+}
+div#thanh_toan p{
+  width: 250px;
+  text-align: center;
+  background-color: #29a07e;
+}
+/* Login form star */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/* Set a style for all buttons */
+button {
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+  background-color: #d24141;
+  
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: 100px;
+  padding: 10px 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+.container{
+  padding: 20px;
+  color: blue;
+}
+.container h2{
+  color: #000;
+  padding-bottom: 15px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close{
+  position: absolute;
+  right: -140px;
+  top: -140px;;
+  color: #000;
+  font-size: 35px;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+/* Login form end */
+nav{
+  width: auto;
+  height: 60px;
+  padding: 10px 0;
+  margin: 0px 150px 0px 150px;
+}
+nav ul{
+  list-style: none;
+background-color: #29A07E;
+  width: auto;
+  height: 40px;
+  padding:20px 15px 0px 15px;
+  border-radius: 10px;
+  color: white;
+}
+nav ul li{
+  float: left;
+  padding:0px 10px 0px 5px;
+}
+nav ul li a{
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+div#icon_menu{
+  float: left;
+}
+
+/* noi dung bai bao start */
+div#title_np{
+  width: 780px;
+  border-bottom: 1px solid gray;
+}
+div#title_np a{
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  font-size: 14px;
+}
+div#title_np a:hover{
+  color: blue;
+}
+div#title_np p{
+  font-weight: bold;
+  font-size: 17px;
+}
+div#content_paper{
+width: 780px;
+float: left;
+}
+div#content_paper p{
+font-size: 11px;
+padding: 10px 0;
+}
+div#content_paper img{
+width: 780px;
+}
+div#content_paper span#muc_nho{
+font-weight: bold;
+float: left;
+margin: 5px 0;
+}
+div#content_paper span#noidung{
+float: left;
+margin: 5px 0;
+font-size: 13px;
+}
+div#content_paper img#img1{
+width: 700px;
+padding:10px 37px;
+}
+diV#content_paper img#img2{
+width: 300px;
+padding: 10px 250px;
+}
+div#icon{
+margin:50px 10px 10px 10px;
+border-bottom: 1px solid gray;
+padding: 10px 300px;
+color: gray;
+}
+div#icon img{
+width: 32px;
+height: 32px;
+}
+div#icon img:hover{
+transform: scale(1.1);
+transition: transform .6s;
+}
+div#admin{
+float: left;
+border-bottom: 1px solid gray;
+width: 780px;
+margin: 60px 10px 10px 0px;
+}
+div#admin img{
+padding: 10px 0;
+width:  100px;
+border: 1px solid white;
+padding: 1px;
+border-radius: 50px;
+float: left;
+}
+div#admin span{
+float: left;
+padding: 15px 0px 0px 25px;
+font-size: 17px;
+font-weight: bold;
+}
+div#form_phanhoi{
+width: 810px;
+margin-top:30px;
+background-color: #f2f2f2;
+border: 2px solid #29a07e;
+float: left;
+}
+div#form_phanhoi p{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+div#form_phanhoi span{
+  padding: 10px 0px 10px 20px;
+}
+div#form_phanhoi label{
+color: blue;
+padding: 10px 0px 10px 20px;
+font-size: 13px;
+}
+div#form_phanhoi textarea{
+margin: 5px 0px 10px 20px;
+}
+div#form_phanhoi input[type=text]
+{
+width: 740px;
+margin: 10px 0px 10px 20px;
+}
+div#form_phanhoi input#checked{
+margin: 10px 0px 10px 20px;
+}
+div#form_phanhoi input#submit{
+margin: 10px 0px 10px 20px;
+padding:5px 7px;
+font-size: 18px;
+color: white;
+background-color: #d24141;
+border: 1px solid #d24141;
+}
+/* aside right start*/
+
+section{
+  width: auto;
+  display: table-cell;
+}
+
+#top_right{
+  display: table-cell;
+  width: 300px;
+  float: right;
+}
+
+#top_right{
+  border: 2px solid #29A07E;
+  width: 274px;
+  margin-left: 30px;
+}
+
+#top_mid{
+  width: 420px;
+  height: 708px;
+  float: left;
+}
+div#abc{ 
+  width: auto;
+  height: 700px;
+  margin: 0px 15px;
+}
+#top_mid #ten_sp{
+  height: 50px;
+}
+
+#top_mid #ten_sp p{
+  border-bottom: #88F1CC solid 1px;
+  width: 400px;
+  float: left;
+  padding-bottom:20px ;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+#top_mid #gia{
+  width: 425px;
+  float: left;
+  margin-left: 10px;
+}
+
+#chi_tiet{
+  width: 420px;
+  float: left;
+  margin-top: 18px;
+}
+
+#top_mid #ho_tro{
+  margin-top: 15px;
+  float: left;
+  border: solid 1px #29a07e;
+  font-size: 15px;
+  width: 420px;
+  background-color: #fefff0;
+}
+
+#top_mid #ho_tro #doi_tra{
+  margin-left: 10px;
+}
+
+#top_mid #ho_tro #chinh_sach{
+  color: #29a07e;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+#button_buy_1{
+  width: 380px;
+  float: left;
+  margin-top: 18px;
+}
+
+#button_buy_1 #button_1{
+  width: 122px;
+  height: 40px;
+  background-color: red;
+  border-radius: 15px;
+  float: left;
+  margin-right: 30px;
+}
+
+#button_buy_1 button #icon_fb{
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  float: left;
+  margin-left: 14px;
+  line-height: 30px;
+}
+
+#button_buy_1 button #text_fb{
+  line-height: 30px;
+  font-size: 15px;
+  color: white;
+}
+
+#button_2{
+  width: 122px;
+  height: 40px;
+  background-color: black;
+  border-radius: 15px;
+  float: left;
+}
+
+#button_2 img{
+  margin-top: 3px;
+  width: 112px;
+}
+
+#button_buy_2{
+  margin-top: 30px;
+  float: left;
+}
+
+#button_3{
+  height: 40px;
+  width: 380px;
+  background-color: #29A07E;
+  border-radius: 8px;
+}
+
+#button_3 p{
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#ho_tro #doi_tra p{
+  padding: 10px;
+  width: 420px;
+}
+
+#top_mid #gia p{
+  float: left;
+  color: red;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#chi_tiet p{
+  padding: 7px;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+#top_left{
+  float: left;
+  width: 370px;
+  height: 708px;
+}
+
+div#body{
+  margin: 0px 150px 0px 150px;
+}
+
+article{
+  width: auto;
+  margin: 0px 150px;
+  display: table-row;
+}
+
+div#title1{
+padding: 10px 0;
+}
+div#title1 span{
+margin: 10px 5px;
+padding: 10px 176px 10px 0;
+font-weight:  bold;
+}
+div#listtt img{
+float: left;
+padding: 5px;
+width: 70px;
+}
+div#listtt ul li{
+list-style: none;
+padding-bottom: 10px;
+border-bottom: 1px solid gray;
+margin: 0px 5px;
+}
+div#listtt ul li p{
+float: left;
+font-size: 13px;
+padding: 10px;
+text-align: left;
+}
+div#listtt ul li a{
+color: black;
+text-decoration: none;
+}
+div#listtt ul li a:hover{
+color: blue;
+}
+div#listtt span{
+padding: 10px;
+font-weight: bold;
+font-size: 17px;
+}
+
+/* footer start */
+footer{
+margin-top: 100px;
+width: auto;
+height:370px;
+background-color: #29A07E;
+}
+div#body_footer{
+margin: 0 150px;
+width: auto;
+}
+div#body_footer div#address{
+width: auto;
+float: left;
+}
+div#body_footer div#footer_icon img{
+width: 30px;
+height: 30px;
+}
+
+div#body_footer div#footer_icon{
+float: right;
+}
+
+div#body_footer div#in4_footer div#address p{
+font-size: 14px;
+color: white;
+font-weight: bold;
+}
+
+div#in4_footer{
+padding-top: 10px;
+border: #29A07E solid 2px; 
+height: 30px;
+}
+/* map && page start */
+div#map_page{
+margin-top: 40px;
+background-color: #29A07E;
+}
+div#map_page p{
+padding-bottom: 5px;
+font-size: 15px;
+font-weight: bold;
+color: white;
+}
+div#map{
+float: left;
+width: auto;
+}
+div#map iframe{
+width: 500px;
+height: 262px;
+border: 1px solid blueviolet;
+
+}
+div#page iframe{
+width: 500px;
+height: 262px;
+}
+div#page{
+float: right;
+/* border: red solid 2px; */
+width: auto;
+overflow: hidden;
+}
+/* Fast chatting */
+div#fast_ib{
+position:fixed;
+bottom: 10px;
+left: 0;
+} 
+div#zalo_chat{
+width: 70px;
+border: 1px solid #0c8800;
+margin-bottom: 5px;
+margin-left: 10px;
+padding: 5px;
+border-radius: 20px;
+background-color: #0c8800;
+color: white;
+}
+div#facebook_chat{
+width: 110px;
+border: 1px solid #29a07e;
+margin-bottom: 5px;
+margin-left: 10px;
+padding: 5px;
+border-radius: 20px;
+background-color: #29a07e;
+color: white;
+}
+div#hotline{
+width: 140px;
+border: 1px solid #df043e;
+margin-bottom: 5px;
+margin-left: 10px;
+padding: 5px;
+border-radius: 20px;
+background-color:#df043e;
+color: white;
+}
+/* back to top */
+#btt {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 99;
+font-size: 11px;
+border: 1px solid blue;
+outline: none;
+color: blue;
+cursor: pointer;
+padding: 10px 12px;
+border-radius: 20px;
+}
+#btt:hover {
+background-color:#d24141;
+}
+
+aside#left div.menu-vertical-left ul li img{
+vertical-align: middle;
+}
+ /* slide show sản phẩm */
+/* Position the image container (needed to position the left and right arrows) */
+.container_5 {
+position: relative;
+width: 380px;
+}
+              
+/* Hide the images by default */
+.mySlides_5 {
+  display: none;
+}
+              
+/* Add a pointer when hovering over the thumbnail images */
+.cursor_5 {
+ cursor: pointer;
+}
+              
+/* Next & previous buttons */
+.prev_5,
+.next_5 {
+  cursor: pointer;
+ position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+              
+/* Position the "next button" to the right */
+.next_5 {
+ right: 0;
+  border-radius: 3px 0 0 3px;
+}
+                 
+ /* On hover, add a black background color with a little bit see-through */
+.prev_5:hover,
+.next_5:hover {
+   background-color: rgba(0, 0, 0, 0.8);
+}
+              
+/* Number text (1/3 etc) */
+.numbertext_5 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+              
+/* Container for image text */
+.caption-container_5 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+              
+.row_5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+              
+.row_5{
+  width: 413px;
+}
+            
+  /* Six columns side by side */
+.column_5 {
+  float: left;
+  width: 85px;
+  height: 90px;
+  margin: 4px;
+   }
+              
+ /* Add a transparency effect for thumnbail images */
+.demo_5 {
+  opacity: 0.6;
+ }
+              
+ #row_5 img{
+  width: 90px;
+  height: 80px;
+  margin: 4px;
+}
+            
+.active_5, .demo_5:hover {
+  opacity: 1;
+}
+

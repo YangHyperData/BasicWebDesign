@@ -1,0 +1,488 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body{
+    width: auto;
+    font-family: "Cabin", sans-serif;
+}
+header{
+    width: auto;
+    height: 90px;
+    margin: 0px 150px 0px 150px;
+}
+div#ib{
+    width: auto;
+    height: 10px;
+    margin:0px;
+    padding-bottom: 40px;
+    border: solid #29a07e;
+    background-color: #29a07e;
+}
+div#ib ul{
+    float: left;
+    list-style: none;
+    margin-left: 150px;  
+}
+div#ib ul li{
+    float: left;
+    padding:14px 20px;
+}
+div#ib ul li a{
+    font-size: 10px; 
+    color: white;
+    text-decoration: none;
+}
+div#ib div#login {
+    float: right;
+    font-size: 15px;
+    margin: 4px 150px 4px 0;
+    padding: 11px 14px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: #29A07E;
+}
+div#ib div#login i{
+    color: white;
+    background-color: #29A07E;
+}
+div#ib div#login:hover{
+    background-color:#d24141;
+}
+div#login div a{
+    text-decoration: none;
+    color: blue;
+}
+div #logo{
+    width: 120px;
+    height: 90px;
+    float: left;
+}
+#logo img{
+    width: 110px;
+    height: 90px;
+}
+.thanh_tim{
+  width: 500px;
+  height: 40px;
+  float: left;
+  padding: 25px 0px 30px 30px;
+}
+.thanh_tim input[type=text]{
+  width: 400px;
+  height: 35px;
+}
+.thanh_tim button{
+  height: 35px;
+  width: 50px;
+  margin-left: -4px;
+  color: white;
+  background-color: black;
+}
+                                      /* ======================== cần được sửa icon shopee */
+#icon_shop{     
+  height: 15px;
+  width: 15px;
+}
+#sdt{
+  width: 190px;
+  float: left;
+  padding: 35px 0px 30px 30px;
+}
+#sdt b{
+    font-size: 30px;
+    color: #29A07E;
+}
+/* Gio hang start */
+.dropbtn {
+  background-color:#29a07e;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  margin: 35px 0 0 92px;
+  border-radius: 10px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin: 5px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #d24141;}
+
+div#giohang{
+  width: 280px;
+  height:200px;
+  overflow: scroll;
+  padding: 20px 10px;
+}
+div#sp{
+ width: 300px;
+ float: left;
+ margin: 15px 0;
+}
+div#sp img{
+  width: 60px;
+  float: left;
+}
+div#sp span{
+  float: left;
+  font-size: 15px;
+  margin: 5px 0px 0px 10px;
+}
+div#sp p{
+  float: left;
+  font-size: 13px;
+  color: #b2b2b2;
+  margin: 20px 0 0 10px;
+}
+div#truy_cap{
+  width: 300px; 
+  float: left;
+  margin: 10px 0;
+}
+div#truy_cap p{
+  width: 250px;
+  text-align: center;
+  background-color: #d24141;
+}
+div#thanh_toan{
+  width: 300px; 
+  float: left;
+  margin: 5px 0 10px 0;
+}
+div#thanh_toan p{
+  width: 250px;
+  text-align: center;
+  background-color: #29a07e;
+}
+nav{
+    width: auto;
+    height: 60px;
+    padding: 10px 0;
+    margin: 0px 150px 0px 150px;
+  }
+  nav ul{
+    list-style: none;
+  background-color: #29A07E;
+    width: auto;
+    height: 40px;
+    padding:20px 15px 0px 15px;
+    border-radius: 10px;
+    color: white;
+  }
+  nav ul li{
+    float: right;
+    margin-right: 12px;
+    padding:0px 10px 0px 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+div#icon_menu{
+    float: left;
+}
+
+div#my_acc{
+    width: auto;
+    padding: 20px 0;
+    background-color: whitesmoke;
+    border: 2px green solid;
+}
+div#my_acc p{
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 25px;
+    color: #d24141;
+}
+div#contact_form
+{
+    float: left;
+    margin: 10px 340px;
+    border-left: dashed 2px #29A07E;
+    border-right: dashed 2px #29A07E;
+    padding: 0px 10px;
+}
+div#contact_form p{
+    padding: 10px 0px 10px 0px;
+}
+div#contact_form label{
+    color: blue;
+    padding-bottom: 10px;
+}
+div#contact_form input#user{
+    width: 700px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+div#contact_form input#sdt{
+    width: 700px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+div#contact_form input#email{
+    width: 700px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+div#contact_form input#submit{ 
+    width: auto;
+    font-size: 18px;
+    background-color: #d24141;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 12px;
+    margin: 20px 0 0 255px;
+}
+/* footer start */
+footer{
+    margin-top: 550px;
+    width: auto;
+    height:370px;
+  
+    background-color: #29A07E;
+  }
+  div#body_footer{
+    margin: 0 150px;
+    width: auto;
+  }
+  div#body_footer div#address{
+    width: auto;
+    float: left;
+  }
+  div#body_footer div#footer_icon img{
+    width: 30px;
+    height: 30px;
+  }
+  
+  div#body_footer div#footer_icon{
+    float: right;
+  }
+  
+  div#body_footer div#in4_footer div#address p{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  div#in4_footer{
+    padding-top: 10px;
+    border: #29A07E solid 2px; 
+    height: 30px;
+  }
+  /* map && page start */
+  div#map_page{
+    margin-top: 40px;
+    background-color: #29A07E;
+  }
+  div#map_page p{
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+  }
+  div#map{
+    float: left;
+    width: auto;
+  }
+  div#map iframe{
+    width: 500px;
+    height: 262px;
+    border: 1px solid blueviolet;
+    
+  }
+  div#page iframe{
+    width: 500px;
+    height: 262px;
+  }
+  div#page{
+    float: right;
+    /* border: red solid 2px; */
+    width: auto;
+    overflow: hidden;
+  }
+/* fast chatting */
+  div#fast_ib{
+    position:fixed;
+    bottom: 10px;
+    left: 0;
+  } 
+  div#zalo_chat{
+    width: 70px;
+    border: 1px solid #0c8800;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #0c8800;
+    color: white;
+  }
+  div#facebook_chat{
+    width: 110px;
+    border: 1px solid #29a07e;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #29a07e;
+    color: white;
+  }
+  div#hotline{
+    width: 140px;
+    border: 1px solid #df043e;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color:#df043e;
+    color: white;
+  }
+
+  /* Menu-vertical-left start*/
+.menu-vertical-left{
+  /* position: relative; */
+  width: 200px; 
+  text-align: left;
+  margin: auto;
+  border: 2px solid white;
+  border-top-right-radius:5px;   
+  border-bottom-right-radius:5px;
+  float: left;
+}
+.menu-vertical-left ul {
+  margin:0;
+  padding:0;
+  position: relative;
+  list-style: none;
+}
+.menu-vertical-left ul li{
+  position: relative;
+  font-size: 13px;
+}
+.menu-vertical-left ul li a{
+  display: block;
+  position: relative;
+  background:white;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu-vertical-left ul li a:link , .menu-vertical-left ul li a:visited{
+  color: black;
+  border-bottom: 1px solid gray;
+}
+.menu-vertical-left ul li:hover>a{
+  background:#3d8dc9;
+  color:red;
+  border-radius: 5px;
+}
+.menu-vertical-left ul li ul{
+  position: absolute;
+  left: -5000px;
+  top: 0;
+  width: 300px;
+  visibility: hidden;
+  box-shadow: 2px 2px 5px gray; 
+}
+.menu-vertical-left ul li:hover>ul{
+  visibility: visible;
+  left: 100%;
+}
+.menu-vertical-left ul li ul li{
+  display:list-item;
+  float: none;
+}
+.menu-vertical-left ul li ul li ul{
+  top: 1;
+  left: 100%;
+}
+.menu-vertical-left ul ul li:hover>a{
+  background: white;
+  border-radius: 5px;
+}
+.menu-vertical-left ul ul li:hover>ul{
+  left: 100%;
+}
+.menu-vertical-left ul li ul li a{
+  padding: 10px;
+  margin: 0;
+  background: white;
+  border-right: none;
+  border-top-width: 0;
+}
+.menu-vertical-left ul li>a{
+  padding-right: 20px;
+}
+.menu-vertical-left ul li>a:only-child{
+  padding-right: 10px;
+}
+.menu-vertical-left ul li>a::after{
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-left-color:white;
+  top: 40%;
+  right: 8px;
+}
+.menu-vertical-left ul li>a:only-child::after{
+  display: none;
+}
+/* menu-vertical-left end */
+div.hover_a{
+  float: left;
+  margin-left: -850px;
+  margin-top: 30px;
+}
+.button_a {
+  background-color: #29a07e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+}
+
+.hover_a {
+  position: relative;
+  display: inline-block;
+}
+
+.content_a {
+  display: none;
+  position: absolute;
+  background-color:white;
+  width: 200px;
+}
+.hover_a:hover .content_a {display: block;}
+.hover_a:hover .button_a {background-color: #29a07e;}
